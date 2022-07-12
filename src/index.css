@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contacts {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+
+}
+
+.contacts td, .contacts th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+}
+
+.contacts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6693d5;
+  color: white;
+}
+
+button {
+  padding: 5px;
+  margin: 10px;
+}
